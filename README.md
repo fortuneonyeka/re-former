@@ -4,8 +4,8 @@
 
 > This is part of the Forms Project of The Odin Project’s Ruby on Rails Curriculum, which is also part of Microvese's Technical Curriculum. To make it, we followed [these tutorial instructions](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/forms).
 
-![screenshot](./imgs/ReFormer.png)
-![screenshot](./imgs/ReFormer_edit.png)
+<img src="lib\assets\imgs\ReFormer.png">
+<img src="lib\assets\imgs\ReFormer_edit.png">
 
 In this project I built some forms, first using nearly-pure HTML and the helper methods that Rails provide. Note that this project doesn't intend to provide any styles to the created views.
 
