@@ -4,7 +4,8 @@
 
 > This is part of the Forms Project of The Odin Project’s Ruby on Rails Curriculum, which is also part of Microvese's Technical Curriculum. To make it, we followed [these tutorial instructions](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/forms).
 
-![screenshot](./img/screenshot.png)
+![screenshot](./imgs/ReFormer.png)
+![screenshot](./imgs/ReFormer_edit.png)
 
 In this project I built some forms, first using nearly-pure HTML and the helper methods that Rails provide. Note that this project doesn't intend to provide any styles to the created views.
 
@@ -40,11 +41,11 @@ $ git clone git@github.com:fortuneonyeka/re-former.git
 - And, finally, to prevent any issue that might eventually come up because of the webpacker package, run
 
 
-$ bundle exec rake webpacker: install
+$ bundle exec rake webpacker:install
 
 ### Install
-
-- Run `$ rails db: migrate` to migrate the databases needed to run this project.
+- run `$ rails db:create` to create the database needed to run this project.
+- Run `$ rails db:migrate` to migrate the databases needed to run this project.
 - Run `$ rails server` to start your localhost.
 - On the browser of your preference, you can go to http://127.0.0.1:3000/users/new and fill out the form to create your records (users). Please, note that the validations presented below should be taken into account.
 - To update (edit) any of your users, please visit [http://127.0.0.1:3000/users/**ID**/edit](http://127.0.0.1:3000/users/1/edit). _IMPORTANT: Please, note that you should change the **ID** in this URL to the number of the id of the user you want to edit_.
