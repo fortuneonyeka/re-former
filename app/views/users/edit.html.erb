@@ -1,0 +1,11 @@
+<h1>Edit User #<%= @user.id %><h1>
+
+    <%= form_with(model: @user, url: user_path, method: "patch") do |form| %>
+    <%= form.label :email, "Email:" %>
+    <%= form.email_field :email %><br><br>
+    <%= form.label :password, "Password:" %>
+    <%= form.password_field :password %><br><br>
+    <%= form.submit %>
+    <% end %>
+
+    <%= render "errors", user: @user %>
